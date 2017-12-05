@@ -222,7 +222,7 @@ public class YuntianCameraActivity extends Activity {
     				MediaStore.Images.Thumbnails.MICRO_KIND, 
     				null); 
     }
-    
+    //add by liuxia
     protected void onActivityResult(int requestCode,int resultCode,Intent data)
     {
         if(requestCode==CAMERA_PIC_REQUEST)
